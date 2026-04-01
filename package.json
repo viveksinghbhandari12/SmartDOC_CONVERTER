@@ -1,0 +1,10 @@
+{
+  "name": "smartdoc-ai",
+  "private": true,
+  "description": "Build client, then start server (production: set server/.env, NODE_ENV=production)",
+  "scripts": {
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server",
+    "postbuild": "echo Client built to client/dist. From server/: set NODE_ENV=production and npm start"
+  }
+}
