@@ -82,7 +82,7 @@ npm run dev
 ---
 
 ## Screeshots
-![SmartDoc Converter](imgage.png)
+![SmartDoc Converter](image.png)
 
 
 ## 🔑 Environment Variables
